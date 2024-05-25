@@ -4,11 +4,13 @@ import App from './pages/App.jsx'
 import NewTheme from './styles/theme'
 
 import { ChakraProvider } from '@chakra-ui/react'
+import NavBar from './components/navbar.jsx'
 import './styles/fonts.css'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <ChakraProvider theme={NewTheme}>
+      <NavBar/>
       <App />
     </ChakraProvider>
   </React.StrictMode>,
