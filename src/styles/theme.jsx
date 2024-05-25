@@ -1,16 +1,20 @@
-import { extendTheme } from '@chakra-ui/react'
+import { extendTheme, theme as base } from '@chakra-ui/react'
 
 import styles from './styles'
 
-const overrides = {
+const overrides = extendTheme({
     styles,
-    
+
     colors:{
         mainPurple: {
             primary: '#d3a6ff',
             secondary: '#aa56FF',
         },
-    }
-}
+    },
 
-export default extendTheme(overrides)
+    fonts:{
+        heading: `'EpiceneDisplayRegularItalic', ${base.fonts?.heading}`,
+    }
+})
+
+export default overrides
