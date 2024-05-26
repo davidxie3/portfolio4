@@ -4,7 +4,7 @@ const styles = {    //Global Style Overrides
         //     outline: '1px solid red',
         // },
         body: {
-            bg: '#191919',
+            bg: '#070707',
         }, 
     }),
 };
