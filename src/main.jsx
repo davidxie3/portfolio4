@@ -1,17 +1,16 @@
-import React from 'react'
-import ReactDOM from 'react-dom/client'
-import App from './pages/App.jsx'
-import NewTheme from './styles/theme'
+import React from "react";
+import ReactDOM from "react-dom/client";
+import App from "./pages/App.jsx";
+import NewTheme from "./styles/theme";
 
-import { ChakraProvider } from '@chakra-ui/react'
-import NavBar from './components/navbar.jsx'
-import './styles/fonts.css'
+import { ChakraProvider } from "@chakra-ui/react";
+import NavBar from "./components/navbar.jsx";
 
-ReactDOM.createRoot(document.getElementById('root')).render(
+ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
     <ChakraProvider theme={NewTheme}>
-      <NavBar/>
+      <NavBar />
       <App />
     </ChakraProvider>
-  </React.StrictMode>,
-)
+  </React.StrictMode>
+);
