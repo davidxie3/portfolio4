@@ -13,13 +13,9 @@ const overrides = extendTheme({ //My Main Theme Entry Point
         },
     },
 
-    fonts:{
-        EpiceneDisplayRegularItalic: `'EpiceneDisplayRegularItalic', ${base.fonts?.heading}`,
-        EpiceneDisplayRegular: `'EpiceneDisplayRegular', ${base.fonts?.heading}`,
-        EpiceneDisplayLight: `'EpiceneDisplayLight', ${base.fonts?.heading}`,
-        EpiceneDisplayLightItalic: `'EpiceneDisplayLightItalic', ${base.fonts?.heading}`,
-
-        RomieMedium: `'RomieMedium', ${base.fonts?.heading}`,
+    fonts: {
+        EpiceneDisplayRegularItalic: `'EpiceneDisplayRegularItalic', ${base.fonts?.heading}, sans-serif`,
+        RomieMedium: `'RomieMedium', ${base.fonts?.heading}, sans-serif`,
     },
 
     components: {
@@ -27,4 +23,5 @@ const overrides = extendTheme({ //My Main Theme Entry Point
     },
 })
 
-export default overrides
+
+export default overrides;

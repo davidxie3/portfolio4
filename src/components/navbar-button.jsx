@@ -1,7 +1,13 @@
 import { Button } from '@chakra-ui/react'
+import PropTypes from 'prop-types';
 
 export default function NavButton({name}){
     return (
-        <Button size='xl'>{name}</Button>
+        <Button>{name}</Button>
     );
 }
+
+NavButton.propTypes = {
+    name: PropTypes.string.isRequired,
+    path: PropTypes.string.isRequired,
+};

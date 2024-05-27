@@ -1,9 +1,13 @@
+import { Text, Stack, Box } from "@chakra-ui/react"
+
 function About(){
     return (
-        <div>
-            <h1>About Me</h1>
-            <p>Hi, I'm David Xie. I'm a software engineer and I love to code.</p>
-        </div>
+        <Box h="calc(100vh - 160px)" display="flex" alignItems="center" justifyContent="center">
+            <Stack align="center">
+                <Text fontSize={96} color="mainPurple.primary" fontFamily='EpiceneDisplayRegular'>ABOUT ME</Text>
+                <Text fontSize={84} color="mainPurple.primary" fontFamily='EpiceneDisplayRegular'>I AM DAVID XIE WHATS UP </Text>
+            </Stack>
+        </Box>
     );
 }
 
