@@ -1,15 +1,11 @@
-import { Text, Stack, Box } from "@chakra-ui/react"
+import { Text, Stack, Flex } from "@chakra-ui/react"
 
 function About(){
     return (
-        <Box h="calc(100vh - 160px)" display="flex" alignItems="center" justifyContent="center">
-            <Stack align="center">
-                <Text fontSize={96} color="mainPurple.primary" fontFamily='EpiceneDisplayRegular'>ABOUT ME</Text>
-                <Text fontSize={84} color="mainPurple.primary" fontFamily='EpiceneDisplayRegular'>I AM DAVID XIE WHATS UP </Text>
-            </Stack>
-        </Box>
+        <Flex h="calc(100vh - 90px)" bg="mainPurple.secondaryBG" display="flex" alignItems="flex-end" justifyContent="center">
+                <Text fontSize={435} color="#000000" fontFamily='EpiceneDisplayLightItalic' mb="-160px">About</Text>
+        </Flex >
     );
 }
-
 
 export default About;

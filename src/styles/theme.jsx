@@ -9,7 +9,7 @@ const overrides = extendTheme({ //My Main Theme Entry Point
     colors:{
         mainPurple: {
             primary: '#BD82F8',
-            secondary: '#aa56FF',
+            secondaryBG: '#aa56FF',
         },
     },
 

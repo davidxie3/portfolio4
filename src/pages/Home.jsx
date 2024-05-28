@@ -1,4 +1,5 @@
 import { Text, Stack, Box } from "@chakra-ui/react"
+
 function Home() {
     return (
     <>
