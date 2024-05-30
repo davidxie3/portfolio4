@@ -1,43 +1,51 @@
 @font-face {
-    font-family: "EpiceneDisplayRegularItalic";
-    font-style: normal;
-    font-weight: normal;
-    font-display: swap;
-    src: url("../assets/fonts/Epicene/EpiceneDisplay-RegularItalic.woff2") format("woff2");
+	font-family: 'EpiceneDisplayRegularItalic';
+	font-style: normal;
+	font-weight: normal;
+	font-display: swap;
+	src: url('../assets/fonts/Epicene/EpiceneDisplay-RegularItalic.woff2') format('woff2');
 }
 
 @font-face {
-    font-family: "EpiceneDisplayRegular";
-    font-style: normal;
-    font-weight: normal;
-    font-display: swap;
-    src: url("../assets/fonts/Epicene/EpiceneDisplay-Regular.woff2") format("woff2");
+	font-family: 'EpiceneDisplayRegular';
+	font-style: normal;
+	font-weight: normal;
+	font-display: swap;
+	src: url('../assets/fonts/Epicene/EpiceneDisplay-Regular.woff2') format('woff2');
 }
 
 @font-face {
-    font-family: "EpiceneDisplayLight";
-    font-style: normal;
-    font-weight: normal;
-    font-display: swap;
-    src: url("../assets/fonts/Epicene/EpiceneDisplay-Light.woff2") format("woff2");
+	font-family: 'EpiceneDisplayLight';
+	font-style: normal;
+	font-weight: normal;
+	font-display: swap;
+	src: url('../assets/fonts/Epicene/EpiceneDisplay-Light.woff2') format('woff2');
 }
 
 @font-face {
-    font-family: "EpiceneDisplayLightItalic";
-    font-style: normal;
-    font-weight: normal;
-    font-display: swap;
-    src: url("../assets/fonts/Epicene/EpiceneDisplay-LightItalic.woff2") format("woff2");
+	font-family: 'EpiceneDisplayLightItalic';
+	font-style: normal;
+	font-weight: normal;
+	font-display: swap;
+	src: url('../assets/fonts/Epicene/EpiceneDisplay-LightItalic.woff2') format('woff2');
 }
 
 @font-face {
-    font-family: "RomieRegular";
-    font-style: normal;
-    font-weight: normal;
-    font-display: swap;
-    src: url("../assets/fonts/Romie/RomieTrial-Regular.otf") format("opentype");
+	font-family: 'RomieRegular';
+	font-style: normal;
+	font-weight: normal;
+	font-display: swap;
+	src: url('../assets/fonts/Romie/RomieTrial-Regular.otf') format('opentype');
+}
+
+@font-face {
+	font-family: 'RomieRegularItalic';
+	font-style: normal;
+	font-weight: normal;
+	font-display: swap;
+	src: url('../assets/fonts/Romie/RomieTrial-Regular-Italic.otf') format('opentype');
 }
 
 * {
-    font-feature-settings: "ss05" 1;
+	font-feature-settings: 'ss05' 1;
 }
