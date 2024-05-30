@@ -2,6 +2,7 @@ import { extendTheme, theme as base } from '@chakra-ui/react';
 
 import styles from './styles';
 import NavButton from './components/button-style';
+import NavBar from './components/navbar-style';
 
 const overrides = extendTheme({
 	//My Main Theme Entry Point
@@ -21,6 +22,7 @@ const overrides = extendTheme({
 
 	components: {
 		Button: NavButton,
+        NavBar: NavBar,
 	},
 });
 
