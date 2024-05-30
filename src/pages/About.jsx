@@ -1,4 +1,4 @@
-import { Text, Stack, Flex } from "@chakra-ui/react"
+import { Text, Flex } from "@chakra-ui/react"
 
 function About(){
     return (

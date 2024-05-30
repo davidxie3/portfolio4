@@ -31,9 +31,13 @@
 }
 
 @font-face {
-    font-family: "RomieMedium";
+    font-family: "RomieRegular";
     font-style: normal;
     font-weight: normal;
     font-display: swap;
-    src: url("../assets/fonts/Romie/Romie-Medium.woff2") format("woff2");
+    src: url("../assets/fonts/Romie/RomieTrial-Regular.otf") format("opentype");
+}
+
+* {
+    font-feature-settings: "ss05" 1;
 }

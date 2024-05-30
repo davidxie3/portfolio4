@@ -16,9 +16,8 @@ const Button = {
     // Styles for different variants (e.g., solid, outline)
     variants: {
       // Example: custom variant 'outlineRed'
-        outlineRed: {
-            border: "2px solid red",
-            color: "red",
+        worksNavBar: {
+            fontSize: "64",
         },
     },
 

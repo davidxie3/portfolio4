@@ -15,7 +15,7 @@ const overrides = extendTheme({ //My Main Theme Entry Point
 
     fonts: {
         EpiceneDisplayRegularItalic: `'EpiceneDisplayRegularItalic', ${base.fonts?.heading}, sans-serif`,
-        RomieMedium: `'RomieMedium', ${base.fonts?.heading}, sans-serif`,
+        RomieRegular: `'RomieRegular', ${base.fonts?.heading}, sans-serif`,
     },
 
     components: {
