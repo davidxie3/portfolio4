@@ -14,7 +14,6 @@ const overrides = extendTheme({
 			secondaryBG: '#aa56FF',
 		},
 	},
-
 	fonts: {
 		EpiceneDisplayRegularItalic: `'EpiceneDisplayRegularItalic', ${base.fonts?.heading}, sans-serif`,
 		RomieRegular: `'RomieRegular', ${base.fonts?.heading}, sans-serif`,

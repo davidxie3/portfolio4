@@ -6,7 +6,6 @@ const NavBar = {
 	// Styles for the visual style variations
 	variants: {
 		aboutPage: {
-			color: 'black',
 			bg: 'mainPurple.secondaryBG',
 		},
 	},

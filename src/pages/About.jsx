@@ -1,4 +1,4 @@
-import { Text, Flex } from '@chakra-ui/react';
+import { Box, Text, Flex, Image } from '@chakra-ui/react';
 
 function About() {
 	return (
@@ -6,11 +6,9 @@ function About() {
 			h="calc(100vh - 100px)"
 			bg="mainPurple.secondaryBG"
 			display="flex"
-			alignItems="flex-end"
-			justifyContent="center"
 			overflow="hidden" // IF WE EVER DECIDE TO EXPAND THE ABOUT PAGE, CHANGE SCROLL BEHAVIOR
-
-            // BEHAVIOR FOR SCROLLBAR
+			justify="center"
+			// BEHAVIOR FOR SCROLLBAR
 			// overflow="scroll"
 			// sx={{
 			// 	/* Hide scrollbar for Chrome, Safari, and Opera */
@@ -22,9 +20,23 @@ function About() {
 			// 	'scrollbar-width': 'none', /* Firefox */
 			// }}
 		>
-			<Text fontSize={435} color="#000000" fontFamily="EpiceneDisplayLightItalic" mb="-160px">
-				About
-			</Text>
+			<Box maxW="lg" position="absolute" top="250px" left="100px">
+				<Text fontSize={24} color="#000000" fontFamily="RomieMedium" top>
+					David Xie is a Visual Designer and Photographer, specializing in his versatility and eagerness to
+					learn new mediums to express himself in. His work aims to capture the essence and raw emotion,
+					transporting viewers to an exact moment in time.
+				</Text>
+			</Box>
+
+			<Box position="absolute">
+				<Image src='src/assets/images/tiny-cropped-portrait.webp'></Image>
+			</Box>
+
+			<Flex align="flex-end" mb="-160px">
+				<Text fontSize={435} color="#000000" fontFamily="RomieRegularItalic">
+					About
+				</Text>
+			</Flex>
 		</Flex>
 	);
 }

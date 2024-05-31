@@ -2,8 +2,8 @@ const Button = {
 	// Styles for the base button
 	baseStyle: {
 		fontFamily: 'RomieRegular',
-		color: 'mainPurple.primary',
 		fontWeight: 'normal',
+        color: 'mainPurple.primary',
 	},
 	// Styles for different sizes (e.g., small, medium, large)
 	sizes: {
@@ -18,6 +18,7 @@ const Button = {
 		// Example: custom variant 'outlineRed'
 		worksNavBar: {
 			fontSize: '64',
+            
 		},
 	},
 
