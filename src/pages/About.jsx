@@ -28,12 +28,12 @@ function About() {
 				</Text>
 			</Box>
 
-			<Box position="absolute">
-				<Image src='src/assets/images/tiny-cropped-portrait.webp'></Image>
+			<Box position="absolute" top="150px" justify="center">
+				<Image maxW="400px" src='src/assets/images/tiny-cropped-portrait.webp'></Image>
 			</Box>
 
-			<Flex align="flex-end" mb="-160px">
-				<Text fontSize={435} color="#000000" fontFamily="RomieRegularItalic">
+			<Flex align="flex-end" mb="-250px">
+				<Text fontSize={535} color="#000000" fontFamily="RomieRegularItalic">
 					About
 				</Text>
 			</Flex>

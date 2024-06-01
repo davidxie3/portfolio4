@@ -13,7 +13,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
 	<React.StrictMode>
 		<BrowserRouter>
 			<ChakraProvider theme={NewTheme}>
-				<NavBar variant="aboutPage"/>
+				<NavBar />
 				<App />
 			</ChakraProvider>
 		</BrowserRouter>

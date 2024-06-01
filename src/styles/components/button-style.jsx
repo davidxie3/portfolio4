@@ -3,7 +3,6 @@ const Button = {
 	baseStyle: {
 		fontFamily: 'RomieRegular',
 		fontWeight: 'normal',
-        color: 'mainPurple.primary',
 	},
 	// Styles for different sizes (e.g., small, medium, large)
 	sizes: {
