@@ -19,6 +19,7 @@ export default function NavBar() {
 	const location = useLocation();
 	const isAboutPage = location.pathname === '/about';
 
+	
 	return (
 		<Box
 			h={NAVBAR_HEIGHT}
@@ -26,7 +27,8 @@ export default function NavBar() {
 			justify="center"
 			align="center"
 			bg={isAboutPage ? 'mainPurple.secondaryBG' : '#070707'}
-			color={isAboutPage ? '#070707' : 'mainPurple.secondaryBG'}
+			color={isAboutPage ? '#070707' : 'mainPurple.primary'}
+			zIndex={3} // Ensure navbar is above the overlay
 		>
 			<HStack w="100%" spacing={9}>
 				<Accordion allowToggle>
@@ -39,7 +41,7 @@ export default function NavBar() {
 								<AccordionIcon />
 							</AccordionButton>
 						</h2>
-						<AccordionPanel textAlign="left" position="absolute">
+						<AccordionPanel textAlign="left" position="absolute" width="100%" zIndex="4">
 							<Stack>
 								<Link to="/works">
 									<NavButton variant="worksNavBar" name="PHOTOGRAPHY" />
