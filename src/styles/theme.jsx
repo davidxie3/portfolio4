@@ -3,11 +3,15 @@ import { extendTheme, theme as base } from '@chakra-ui/react';
 import styles from './styles';
 import NavButton from './components/button-style';
 import NavBar from './components/navbar-style';
+import homepageProject from '../components/homepage-project';
 
 const overrides = extendTheme({
 	//My Main Theme Entry Point
 	styles,
+	breakpoints:{
+		
 
+	},
 	colors: {
 		mainPurple: {
 			primary: '#BD82F8',
@@ -22,6 +26,7 @@ const overrides = extendTheme({
 	components: {
 		Button: NavButton,
         NavBar: NavBar,
+		homepageProject : homepageProject,
 	},
 });
 

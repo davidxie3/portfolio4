@@ -3,7 +3,7 @@ import { Box, Text, Flex, Image } from '@chakra-ui/react';
 function About() {
 	return (
 		<Flex
-			h="calc(100vh - 100px)"
+			h="calc(100vh)"
 			bg="mainPurple.secondaryBG"
 			display="flex"
 			overflow="hidden" // IF WE EVER DECIDE TO EXPAND THE ABOUT PAGE, CHANGE SCROLL BEHAVIOR

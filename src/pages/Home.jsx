@@ -1,18 +1,31 @@
-import { Text, Stack, Box } from '@chakra-ui/react';
+import { Text, Stack, Flex } from '@chakra-ui/react';
+import Project from '../components/homepage-project';
 
 function Home() {
 	return (
 		<>
-			<Box h="calc(100vh - 160px)" display="flex" alignItems="center" justifyContent="center">
-				<Stack align="center">
-					<Text fontSize={96} color="mainPurple.primary" fontFamily="RomieRegular">
+			<Flex display="flex" alignItems="center" justifyContent="center" flexDirection="column" overflowY="hidden">
+				<Stack align="center" justify="center" spacing={4} h="100vh">
+					<Text
+						fontSize={{ base: '36px', sm: '48px', md: '60px', lg: '96px' }}
+						color="mainPurple.primary"
+						fontFamily="RomieRegular"
+					>
 						VISUAL STORYTELLER
 					</Text>
-					<Text fontSize={84} color="mainPurple.primary" fontFamily="RomieRegular">
+					<Text
+						fontSize={{ base: '24px', md: '48px', lg: '84px' }}
+						color="mainPurple.primary"
+						fontFamily="RomieRegular"
+					>
 						CREATIVE DEVELOPER, PHOTOGRAPHER.
 					</Text>
 				</Stack>
-			</Box>
+
+				<Flex w="100%" flexDirection="column"  >
+					<Project />
+				</Flex>
+			</Flex>
 		</>
 	);
 }
