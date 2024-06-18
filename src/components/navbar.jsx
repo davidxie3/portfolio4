@@ -59,7 +59,7 @@ export default function NavBar() {
 			<NavButton name="Archive" />
 			<Spacer />
 			<Link to="/">
-				<Text fontSize={72} letterSpacing="9%" fontFamily="EpiceneDisplayLightItalic">
+				<Text fontSize={{ base: '36px', sm: '48px', md: '60px', lg: '72px' }}letterSpacing="9%" fontFamily="EpiceneDisplayLightItalic">
 					{' '}
 					David Xie
 				</Text>
