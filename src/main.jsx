@@ -7,6 +7,7 @@ import { ChakraProvider } from '@chakra-ui/react';
 import { BrowserRouter } from 'react-router-dom';
 import NavBar from './components/navbar.jsx';
 
+import './styles/homepage-project.css';
 import './styles/fonts.css';
 
 ReactDOM.createRoot(document.getElementById('root')).render(

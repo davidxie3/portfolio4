@@ -11,15 +11,7 @@ function Home() {
 						color="mainPurple.primary"
 						fontFamily="RomieRegular"
 					>
-						VISUAL
-					</Text>
-
-					<Text
-						fontSize={{ base: '36px', sm: '48px', md: '60px', lg: '96px' }}
-						color="mainPurple.primary"
-						fontFamily="RomieRegular"
-					>
-						DESIGNER
+						VISUAL DESIGNER
 					</Text>
 					<Text
 						fontSize={{ base: '24px', md: '48px', lg: '74px' }}
