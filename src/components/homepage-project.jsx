@@ -3,6 +3,7 @@ import picture2 from '../assets/images/Dormly.webp';
 import picture3 from '../assets/images/angieDanceCompressed.webp';
 import picture4 from '../assets/images/melcourses-mockup.webp';
 import picture5 from '../assets/images/thanothii.webp';
+import picture6 from '../assets/images/new-punks-yell.webp';
 
 import { Box, Flex, Image, Text } from '@chakra-ui/react';
 import { useRef } from 'react';
@@ -20,6 +21,9 @@ export default function HomepageProject() {
 	const scale5 = useTransform(scrollYProgress, [0, 1], [1, 5]);
 	const scale6 = useTransform(scrollYProgress, [0, 1], [1, 6]);
 	const scale7 = useTransform(scrollYProgress, [0, 1], [1, 7]);
+	const scale8 = useTransform(scrollYProgress, [0, 1], [1, 8]);
+
+	const textScale = useTransform(scrollYProgress, [0, 1], [1, 5]);
 
 	const pictures = [
 		{
@@ -31,7 +35,7 @@ export default function HomepageProject() {
 			scale: scale5,
 		},
 		{
-			src: picture3,
+			src: picture3, // angie
 			scale: scale6,
 		},
 		{
@@ -41,6 +45,10 @@ export default function HomepageProject() {
 		{
 			src: picture5,
 			scale: scale7,
+		},
+		{
+			src: picture6,
+			scale: scale8,
 		},
 	];
 
@@ -54,6 +62,11 @@ export default function HomepageProject() {
 						</Flex>
 					</motion.div>
 				))}
+				<motion.div className="el" style={{ scale:textScale }}>
+					<Text className="headline" >
+						I design and craft digital experiences that capture the magic of the moment
+					</Text>
+				</motion.div>
 			</Box>
 		</Box>
 	);

@@ -26,6 +26,8 @@ function Home() {
 					<Project />
 				</Flex>
 
+				
+
 
 			
 			</Flex>

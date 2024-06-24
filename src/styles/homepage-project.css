@@ -11,7 +11,6 @@
 	top: 0;
 	height: 100vh;
 
-	background-color: blue;
 }
 
 /* Element styling */
@@ -51,18 +50,18 @@
 
 /* dormly */
 .container .sticky .el:nth-of-type(2) .imageContainer {
-	top: -30vh;
-	left: 1vw;
-	width: 27vw;
-	height: 32vh;
+	top: -25vh;
+	left: 4vw;
+	width: 19vw;
+	height: 23vh;
 }
 
 /* Angie */
 .container .sticky .el:nth-of-type(3) .imageContainer {
-	top: -10vh;
-	left: -21vw;
-	width: 14vw;
-	height: 45vh;
+	top: 24vh;
+	left: -15vw;
+	width: 9vw;
+	height: 31vh;
 }
 
 /* Melcourses */
@@ -73,10 +72,27 @@
 	height: 45vh;
 }
 
-/* New Punks */
+/* Thanothii */
 .container .sticky .el:nth-of-type(5) .imageContainer {
-	top: 28vh;
-	left: -9vw;
-	width: 23vw;
+	top: -28vh;
+	left: -14vw;
+	width: 15vw;
+	height: 17vh;
+}
+
+/* New Punks */
+.container .sticky .el:nth-of-type(6) .imageContainer {
+	top: -25vh;
+	left: 22vw;
+	width: 12vw;
 	height: 25vh;
+}
+
+.headline{
+	font-family: 'RomieRegular';
+	font-size: 3rem;
+	color: white;
+	width: 37vw;
+	position: relative; /* Add this line */
+	left: -25vw;
 }
