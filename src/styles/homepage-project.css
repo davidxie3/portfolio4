@@ -83,16 +83,23 @@
 /* New Punks */
 .container .sticky .el:nth-of-type(6) .imageContainer {
 	top: -25vh;
-	left: 22vw;
+	left: 20.5vw;
 	width: 12vw;
 	height: 25vh;
 }
 
+/* Redraw */
+.container .sticky .el:nth-of-type(7) .imageContainer {
+	top: 30vh;
+	left: 7vw;
+	width: 13vw;
+	height: 30vh;
+}
 .headline{
 	font-family: 'RomieRegular';
-	font-size: 3rem;
+	font-size: 2.5vw;
 	color: white;
 	width: 37vw;
 	position: relative; /* Add this line */
-	left: -25vw;
+	/* left: -25vw; */
 }

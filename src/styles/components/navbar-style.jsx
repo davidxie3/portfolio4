@@ -1,7 +1,7 @@
 const NavBar = {
 	// Styles for the base style
 	baseStyle: {
-		bg:'mainPurple.primary',
+		bg:'transparent',
 		color: 'mainPurple.primary',
 	},
 	// Styles for the size variations

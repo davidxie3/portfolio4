@@ -7,9 +7,10 @@ const Button = {
 	// Styles for different sizes (e.g., small, medium, large)
 	sizes: {
 		xl: {
-			fontSize: '32',
+			fontSize: '1.4vw',
 			padding: '8',
 			h: '56px',
+
 		},
 	},
 	// Styles for different variants (e.g., solid, outline)

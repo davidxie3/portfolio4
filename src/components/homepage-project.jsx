@@ -4,24 +4,28 @@ import picture3 from '../assets/images/angieDanceCompressed.webp';
 import picture4 from '../assets/images/melcourses-mockup.webp';
 import picture5 from '../assets/images/thanothii.webp';
 import picture6 from '../assets/images/new-punks-yell.webp';
+import picture7 from '../assets/images/paper.webp';
+import HomeList from './home-list';
 
 import { Box, Flex, Image, Text } from '@chakra-ui/react';
-import { useRef } from 'react';
+import { useRef, useState, useEffect } from 'react';
 import { useScroll, useTransform, motion } from 'framer-motion';
 
 export default function HomepageProject() {
 	const containerRef = useRef(null);
+	const [showFinalComponent, setShowFinalComponent] = useState(false);
 
 	const { scrollYProgress } = useScroll({
 		target: containerRef,
-		offset: ['start start', 'end end'],
+		offset: ['start 0.4', 'end end'],
 	});
 
-	const scale4 = useTransform(scrollYProgress, [0, 1], [1, 4]);
-	const scale5 = useTransform(scrollYProgress, [0, 1], [1, 5]);
-	const scale6 = useTransform(scrollYProgress, [0, 1], [1, 6]);
-	const scale7 = useTransform(scrollYProgress, [0, 1], [1, 7]);
-	const scale8 = useTransform(scrollYProgress, [0, 1], [1, 8]);
+	const scale4 = useTransform(scrollYProgress, [0, 1], [1, 4]); // 2
+	const scale5 = useTransform(scrollYProgress, [0, 1], [1, 4]); // 3
+	const scale6 = useTransform(scrollYProgress, [0, 1], [1, 5]); // 4
+	const scale7 = useTransform(scrollYProgress, [0, 1], [1, 6]); // 5
+	const scale8 = useTransform(scrollYProgress, [0, 1], [1, 7]); // 6
+	const scale9 = useTransform(scrollYProgress, [0, 1], [1, 4.5]); // 7
 
 	const textScale = useTransform(scrollYProgress, [0, 1], [1, 5]);
 
@@ -50,7 +54,22 @@ export default function HomepageProject() {
 			src: picture6,
 			scale: scale8,
 		},
+		{
+			src: picture7,
+			scale: scale9,
+		},
 	];
+
+	// useEffect(() => {
+	// 	const unsubscribe = scrollYProgress.onChange((latest) => {
+	// 		if (latest === 1) {
+	// 			setShowFinalComponent(true);
+	// 		} else {
+	// 			setShowFinalComponent(false);
+	// 		}
+	// 	});
+	// 	return () => unsubscribe();
+	// }, [scrollYProgress]);
 
 	return (
 		<Box ref={containerRef} className="container">
@@ -62,11 +81,7 @@ export default function HomepageProject() {
 						</Flex>
 					</motion.div>
 				))}
-				<motion.div className="el" style={{ scale:textScale }}>
-					<Text className="headline" >
-						I design and craft digital experiences that capture the magic of the moment
-					</Text>
-				</motion.div>
+				<motion.div className="el" style={{ scale: textScale }}></motion.div>
 			</Box>
 		</Box>
 	);

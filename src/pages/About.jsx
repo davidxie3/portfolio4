@@ -21,7 +21,7 @@ function About() {
 			// }}
 		>
 			<Box maxW="lg" position="absolute" top="250px" left="100px">
-				<Text fontSize={24} color="#000000" fontFamily="RomieMedium" top>
+				<Text fontSize="1.5vw" color="#000000" fontFamily="RomieMedium" top>
 					David Xie is a Visual Designer and Photographer, specializing in his versatility and eagerness to
 					learn new mediums to express himself in. His work aims to capture the essence and raw emotion,
 					transporting viewers to an exact moment in time.
@@ -29,11 +29,11 @@ function About() {
 			</Box>
 
 			<Box position="absolute" top="150px" justify="center">
-				<Image maxW="400px" src='src/assets/images/tiny-cropped-portrait.webp'></Image>
+				<Image maxW="25vw" src='src/assets/images/tiny-cropped-portrait.webp'></Image>
 			</Box>
 
-			<Flex align="flex-end" mb="-250px">
-				<Text fontSize={535} color="#000000" fontFamily="RomieRegularItalic">
+			<Flex align="flex-end" maxH='-34vh'> 
+				<Text fontSize="35vw" color="#000000" fontFamily="RomieRegular">
 					About
 				</Text>
 			</Flex>

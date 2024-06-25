@@ -30,7 +30,7 @@ export default function NavBar() {
 			w="100%"
 			spacing={9}
 		>
-			<Accordion allowToggle>
+			{/* <Accordion allowToggle>
 				<AccordionItem border="none">
 					<h2>
 						<AccordionButton>
@@ -42,24 +42,32 @@ export default function NavBar() {
 					</h2>
 					<AccordionPanel textAlign="left" position="absolute" width="100%" zIndex="4">
 						<Stack>
-							<Link to="/works">
+							<Link to="/works/photography">
 								<NavButton variant="worksNavBar" name="PHOTOGRAPHY" />
 							</Link>
-							<Link to="/works">
+							<Link to="/works/development">
 								<NavButton variant="worksNavBar" name="DEVELOPMENT" />
 							</Link>
-							<Link to="/works">
+							<Link to="/works/design">
 								<NavButton variant="worksNavBar" name="DESIGN" />
 							</Link>
 						</Stack>
 					</AccordionPanel>
 				</AccordionItem>
-			</Accordion>
-
-			<NavButton name="Archive" />
+			</Accordion> */}
+			<Link to ="/works">
+				<NavButton name="Works"></NavButton>
+			</Link>
+			<Link to="/archive">
+				<NavButton name="Archive" />
+			</Link>
 			<Spacer />
 			<Link to="/">
-				<Text fontSize={{ base: '36px', sm: '48px', md: '60px', lg: '72px' }}letterSpacing="9%" fontFamily="EpiceneDisplayLightItalic">
+				<Text
+					fontSize="3vw"
+					letterSpacing="9%"
+					fontFamily="EpiceneDisplayLightItalic"
+				>
 					{' '}
 					David Xie
 				</Text>

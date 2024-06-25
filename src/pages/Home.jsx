@@ -1,5 +1,6 @@
 import { Text, Stack, Flex } from '@chakra-ui/react';
 import Project from '../components/homepage-project';
+import HomeList from '../components/home-list';
 
 function Home() {
 	return (
@@ -7,29 +8,26 @@ function Home() {
 			<Flex display="flex" alignItems="center" justifyContent="center" flexDirection="column">
 				<Stack align="center" justify="center" spacing={4} h="100vh">
 					<Text
-						fontSize={{ base: '36px', sm: '48px', md: '60px', lg: '96px' }}
+						fontSize="6vw"
 						color="mainPurple.primary"
 						fontFamily="RomieRegular"
 					>
-						VISUAL DESIGNER
+						CREATIVE TECHNOLOGIST
 					</Text>
 					<Text
-						fontSize={{ base: '24px', md: '48px', lg: '74px' }}
+						fontSize="6vw"
 						color="mainPurple.primary"
 						fontFamily="RomieRegular"
 					>
-						CREATIVE DEVELOPER, PHOTOGRAPHER.
+						PHOTOGRAPHER AND DESIGNER.
 					</Text>
 				</Stack>
 
 				<Flex w="100%" flexDirection="column">
 					<Project />
 				</Flex>
-
 				
-
-
-			
+				<HomeList/>			
 			</Flex>
 		</>
 	);
