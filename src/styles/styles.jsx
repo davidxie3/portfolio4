@@ -6,7 +6,8 @@ const styles = {
 		// 	outline: '1px solid red',
 		// },
 		body: {
-			bg: '#070707',
+			// bg: '#070707',
+			bg: '#080012',
 		},
 	},
 };

@@ -14,7 +14,7 @@ function Works() {
 					top="150"
 					align="center"
 				>
-					↙SELECTED↘ WORKS
+					↙ SELECTED ↘ WORKS
 				</Text>
 			</Flex>
 

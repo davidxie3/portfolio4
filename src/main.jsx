@@ -14,7 +14,7 @@ import './styles/fonts.css';
 ReactDOM.createRoot(document.getElementById('root')).render(
 	<React.StrictMode>
 		<SmoothScrolling>
-			<BrowserRouter>
+			<BrowserRouter basename='/'>
 				<ChakraProvider theme={NewTheme}>
 					<NavBar />
 					<App />

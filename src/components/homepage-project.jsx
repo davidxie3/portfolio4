@@ -13,7 +13,6 @@ import { useScroll, useTransform, motion } from 'framer-motion';
 
 export default function HomepageProject() {
 	const containerRef = useRef(null);
-	const [showFinalComponent, setShowFinalComponent] = useState(false);
 
 	const { scrollYProgress } = useScroll({
 		target: containerRef,
@@ -60,17 +59,6 @@ export default function HomepageProject() {
 		},
 	];
 
-	// useEffect(() => {
-	// 	const unsubscribe = scrollYProgress.onChange((latest) => {
-	// 		if (latest === 1) {
-	// 			setShowFinalComponent(true);
-	// 		} else {
-	// 			setShowFinalComponent(false);
-	// 		}
-	// 	});
-	// 	return () => unsubscribe();
-	// }, [scrollYProgress]);
-
 	return (
 		<Box ref={containerRef} className="container">
 			<Box className="sticky" position="sticky">
@@ -81,7 +69,16 @@ export default function HomepageProject() {
 						</Flex>
 					</motion.div>
 				))}
-				<motion.div className="el" style={{ scale: textScale }}></motion.div>
+				<motion.div left="200px" className="el" style={{ scale: textScale }}>
+					<Text w="21vw" fontSize="1.6vw" color="white" position="relative" left="-260px">
+						<Box as="span" fontFamily="RomieRegular">
+							I design and craft digital experiences that capture the magic of the 
+						</Box>{' '}
+						<Box as="span" fontFamily="RomieRegularItalic">
+							moment.
+						</Box>
+					</Text>
+				</motion.div>
 			</Box>
 		</Box>
 	);
