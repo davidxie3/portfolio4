@@ -1,4 +1,5 @@
 import { Box, Text, Flex, Image } from '@chakra-ui/react';
+import portrait from "../assets/images/tiny-cropped-portrait.webp"
 
 function About() {
 	return (
@@ -18,7 +19,7 @@ function About() {
 			</Box>
 
 			<Box position="absolute" top="150px" left="calc(50% - 10vw)">
-				<Image maxW="20vw" src='src/assets/images/tiny-cropped-portrait.webp' />
+				<Image maxW="20vw" src={portrait} />
 			</Box>
 
 			<Flex

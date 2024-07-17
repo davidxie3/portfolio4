@@ -1,11 +1,11 @@
-import picture1 from '../assets/images/hoangCropped.webp';
-import picture2 from '../assets/images/Dormly.webp';
-import picture3 from '../assets/images/angieDanceCompressed.webp';
-import picture4 from '../assets/images/melcourses-mockup.webp';
-import picture5 from '../assets/images/thanothii.webp';
-import picture6 from '../assets/images/new-punks-yell.webp';
-import picture7 from '../assets/images/paper.webp';
-import HomeList from './Homepage/home-list';
+import picture1 from '../../assets/images/hoangCropped.webp';
+import picture2 from '../../assets/images/Dormly.webp';
+import picture3 from '../../assets/images/angieDanceCompressed.webp';
+import picture4 from '../../assets/images/melcourses-mockup.webp';
+import picture5 from '../../assets/images/thanothii.webp';
+import picture6 from '../../assets/images/new-punks-yell.webp';
+import picture7 from '../../assets/images/paper.webp';
+import HomeList from './home-list';
 
 import { Box, Flex, Image, Text } from '@chakra-ui/react';
 import { useRef, useState, useEffect } from 'react';

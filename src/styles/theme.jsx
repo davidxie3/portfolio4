@@ -3,7 +3,7 @@ import { extendTheme, theme as base } from '@chakra-ui/react';
 import styles from './styles';
 import NavButton from './components/button-style';
 import NavBar from './components/navbar-style';
-import homepageProject from '../components/homepage-project';
+import homepageProject from '../components/Homepage/homepage-project';
 
 const overrides = extendTheme({
 	//My Main Theme Entry Point
