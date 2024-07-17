@@ -1,6 +1,6 @@
 import { Text, Stack, Flex, Spacer } from '@chakra-ui/react';
 import Project from '../components/homepage-project';
-import HomeList from '../components/home-list';
+import HomeList from '../components/Homepage/home-list';
 
 function Home() {
 	return (

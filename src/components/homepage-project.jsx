@@ -5,7 +5,7 @@ import picture4 from '../assets/images/melcourses-mockup.webp';
 import picture5 from '../assets/images/thanothii.webp';
 import picture6 from '../assets/images/new-punks-yell.webp';
 import picture7 from '../assets/images/paper.webp';
-import HomeList from './home-list';
+import HomeList from './Homepage/home-list';
 
 import { Box, Flex, Image, Text } from '@chakra-ui/react';
 import { useRef, useState, useEffect } from 'react';

@@ -49,7 +49,7 @@ export default function NavBar() {
 				<NavButton name="Archive" />
 			</Link>
 			<Spacer />
-			<Link to="/">
+			<Link to="/portfolio4">
 				<Text fontSize="3vw" letterSpacing="9%" fontFamily="RomieRegularItalic">
 					David Xie
 				</Text>

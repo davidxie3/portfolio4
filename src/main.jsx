@@ -5,7 +5,7 @@ import NewTheme from './styles/theme';
 
 import { ChakraProvider } from '@chakra-ui/react';
 import { BrowserRouter } from 'react-router-dom';
-import NavBar from './components/navbar.jsx';
+import NavBar from './components/Navbar/navbar.jsx';
 import SmoothScrolling from './components/Misc/lenis.jsx';
 
 import './styles/homepage-project.css';
