@@ -1,13 +1,6 @@
 import { Flex, Text } from '@chakra-ui/react';
 
 function Archives() {
-    
-
-
-
-
-
-
 	return (
 		<Flex>
 			<Text

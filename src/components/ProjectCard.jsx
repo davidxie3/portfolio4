@@ -1,8 +1,10 @@
-import { Image, Text, Link } from '@chakra-ui/react';
+import { Image, Text} from '@chakra-ui/react';
+import { Link } from 'react-router-dom';
 
+// eslint-disable-next-line react/prop-types
 export default function ProjectCard({ title, image, link }) {
 	return (
-		<Link href={link} isExternal>
+		<Link to={link}>
 			<Image src={image} alt={title} />
 			<Text>{title}</Text>
 		</Link>

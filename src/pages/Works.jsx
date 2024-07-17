@@ -7,22 +7,7 @@ function Works() {
 		{
 			title: "Project 1",
 			image: picture4,
-			link: "https://example.com/project1",
-		},
-		{
-			title: "Project 2",
-			image: picture4,
-			link: "https://example.com/project2",
-		},
-		{
-			title: "Project 3",
-			image: picture4,
-			link: "https://example.com/project3",
-		},
-		{
-			title: "Project 4",
-			image: picture4,
-			link: "https://example.com/project4",
+			link: "/portfolio4/works/Melcourses",
 		},
 	];
 
