@@ -8,7 +8,7 @@ const NAVBAR_HEIGHT = 100;
 export default function NavBar() {
 	const [backgroundColor, setBackgroundColor] = useState('mainPurple.primary');
 	const location = useLocation();
-	const isAboutPage = location.pathname === '/about';
+	const isAboutPage = location.pathname === '/portfolio4/about';
 
 	const handleScroll = () => {
 		const scrollTop = window.scrollY;
@@ -42,10 +42,10 @@ export default function NavBar() {
 			spacing={9}
 			zIndex={1000}
 		>
-			<Link to="/works">
+			<Link to="/portfolio4/works">
 				<NavButton name="Works" />
 			</Link>
-			<Link to="/archive">
+			<Link to="/portfolio4/archive">
 				<NavButton name="Archive" />
 			</Link>
 			<Spacer />
@@ -55,7 +55,7 @@ export default function NavBar() {
 				</Text>
 			</Link>
 			<Spacer />
-			<Link to="/about">
+			<Link to="/portfolio4/about">
 				<NavButton name="About" />
 			</Link>
 			<NavButton name="Contact" />
