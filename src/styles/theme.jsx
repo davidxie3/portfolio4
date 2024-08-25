@@ -8,14 +8,10 @@ import homepageProject from '../components/Homepage/homepage-project';
 const overrides = extendTheme({
 	//My Main Theme Entry Point
 	styles,
-	breakpoints:{
-		
-
-	},
 	colors: {
 		mainPurple: {
 			primary: '#BD82F8',
-			secondaryBG: '#aa56FF',
+			secondaryBG: '#9747FF',
 		},
 	},
 	fonts: {

@@ -1,5 +1,5 @@
 import { Box, Text, Flex, Image } from '@chakra-ui/react';
-import portrait from "../assets/images/tiny-cropped-portrait.webp"
+import portrait from '../assets/images/tiny-cropped-portrait.webp';
 
 function About() {
 	return (
@@ -10,7 +10,7 @@ function About() {
 			justify="center"
 			position="relative"
 		>
-			<Box maxW="lg" position="absolute" top="250px" left="100px">
+			<Box maxW="lg" position="absolute" w="30vw" top="30vh" left="5vw">
 				<Text fontSize="1.5vw" color="#000000" fontFamily="RomieMedium">
 					David Xie is a Visual Designer and Photographer, specializing in his versatility and eagerness to
 					learn new mediums to express himself in. His work aims to capture the essence and raw emotion,
@@ -18,22 +18,17 @@ function About() {
 				</Text>
 			</Box>
 
-			<Box position="absolute" top="150px" left="calc(50% - 10vw)">
-				<Image maxW="20vw" src={portrait} />
-			</Box>
-
-			<Flex
-				position="absolute"
-				bottom="-200"
-				width="100%"
-				justify="center"
-				align="center"
-				zIndex={0}
-			> 
-				<Text fontSize="35vw" color="#000000" fontFamily="RomieRegular">
-					About 
-				</Text>
+			<Flex justify="center" align="center" >
+				<Image maxW="25vw" src={portrait} />
 			</Flex>
+
+			<Box maxW="lg" position="absolute" w="30vw" top="30vh" right="5vw">
+				<Text fontSize="1.5vw" color="#000000" fontFamily="RomieMedium">
+					David Lives by the Phrase: Fuck Around and Find Out. How will you ever know whats the right move
+					without trying? How can one improve without failure? If things dont go well, then we learn and move
+					on. David lives by this phrase, and is always looking for new opportunities to hone his craft.
+				</Text>
+			</Box>
 		</Flex>
 	);
 }

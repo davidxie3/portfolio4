@@ -7,7 +7,7 @@ const Button = {
 	// Styles for different sizes (e.g., small, medium, large)
 	sizes: {
 		xl: {
-			fontSize: '1.4vw',
+			fontSize: '1.7vw',
 			padding: '8',
 			h: '56px',
 
