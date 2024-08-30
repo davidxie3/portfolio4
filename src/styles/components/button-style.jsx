@@ -18,8 +18,12 @@ const Button = {
 		// Example: custom variant 'outlineRed'
 		worksNavBar: {
 			fontSize: '64',
-            
+            color:"mainPurple.primary"
 		},
+		aboutNavBar:{
+			fontSize: '64',
+			color:"#080012"
+		}
 	},
 
 	// Styles for different states (e.g., hover, focus)

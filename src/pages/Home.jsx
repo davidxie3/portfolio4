@@ -34,8 +34,6 @@ function Home() {
 				<Flex w="100%" flexDirection="column">
 					<Project />
 				</Flex>
-
-				<HomeList />
 			</Flex>
 		</>
 	);

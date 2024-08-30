@@ -1,13 +1,15 @@
-import { List, ListItem, Image } from '@chakra-ui/react';
-import picture4 from '../../assets/images/melcourses-mockup.webp';
-import picture1 from '../../assets/images/hoangCropped.webp';
+import { List, ListItem } from '@chakra-ui/react';
 
-export default function HomeList() {
+export default function HomeList({ activeItemIndex }) {
+	const items = [{ name: 'Hoang Le' }, { name: 'Melcourses' }];
+
 	return (
-		<List >
-			<ListItem fontSize="5vw" fontFamily="RomieRegularItalic"color={"white"}>Hoang Le</ListItem>
-			<ListItem>Projects</ListItem>
-			<ListItem>Contact</ListItem>
+		<List spacing="10vw">
+			{items.map((item, index) => (
+				<ListItem key={index} fontSize="5vw" fontFamily="RomieRegularItalic">
+					{item.name}
+				</ListItem>
+			))}
 		</List>
 	);
 }
