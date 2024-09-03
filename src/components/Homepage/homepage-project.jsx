@@ -44,8 +44,8 @@ export default function HomepageProject() {
 	];
 
 	return (
-		<Box ref={containerRef} className="container">
-			<Box className="sticky" position="sticky">
+		<Box ref={containerRef} className="container" >
+			<Box className="sticky" position="sticky" >
 				{pictures.map(({ src, scale }, index) => (
 					<motion.div key={index} className="el" style={{ scale }}>
 						<Flex className="imageContainer">
@@ -69,14 +69,13 @@ export default function HomepageProject() {
 					style={{
 						opacity: listOpacity,
 						y: listY,
-						position: 'fixed',
-						bottom: '50vh', // Adjust this to move the list closer to the bottom
+						position: 'relative',
+						height: '135vh', // Adjust this to move the list closer to the bottom
 						width: '100vw', // Adjust the width as necessary, or you can set a specific width
-						color: 'white',
 						display: 'flex',
 						justifyContent: 'center', // Center horizontally within the div
 						alignItems: 'center', // Center vertically within the div
-						textAlign: 'center', // Center text within the div
+						textAlign: 'center',
 					}}
 				>
 					<HomeList />

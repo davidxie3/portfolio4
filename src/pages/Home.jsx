@@ -5,7 +5,7 @@ import HomeList from '../components/Homepage/home-list';
 function Home() {
 	return (
 		<>
-			<Flex display="flex" alignItems="center" justifyContent="center" flexDirection="column">
+			<Flex display="flex" alignItems="center" justifyContent="center" flexDirection="column"	>
 				<Stack align="center" justify="center" spacing={4} h="100vh">
 					<Text fontSize="6vw" color="mainPurple.primary" fontFamily="RomieRegular">
 						CREATIVE TECHNOLOGIST
@@ -34,7 +34,8 @@ function Home() {
 				<Flex w="100%" flexDirection="column">
 					<Project />
 				</Flex>
-			</Flex>
+
+			</Flex>	
 		</>
 	);
 }
